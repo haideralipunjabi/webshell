@@ -143,6 +143,9 @@ a:hover {
 #terminal {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#terminal-wrapper {
   overflow-x: scroll;
 }
 
