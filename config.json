@@ -1,29 +1,614 @@
 {
   "ascii": [
-    "███╗   ██╗ █████╗ ███████╗ █████╗ ███╗   ██╗",
-    "████╗  ██║██╔══██╗██╔════╝██╔══██╗████╗  ██║",
-    "██╔██╗ ██║███████║███████╗███████║██╔██╗ ██║",
-    "██║╚██╗██║██╔══██║╚════██║██╔══██║██║╚██╗██║",
-    "██║ ╚████║██║  ██║███████║██║  ██║██║ ╚████║",
-    "╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝"
+    "██╗  ██╗ █████╗ ██╗██████╗ ███████╗██████╗ ",
+    "██║  ██║██╔══██╗██║██╔══██╗██╔════╝██╔══██╗",
+    "███████║███████║██║██║  ██║█████╗  ██████╔╝",
+    "██╔══██║██╔══██║██║██║  ██║██╔══╝  ██╔══██╗",
+    "██║  ██║██║  ██║██║██████╔╝███████╗██║  ██║",
+    "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝"
   ],
-  "repoLink": "https://github.com/nasan016/webshell",
-  "social": {
-    "email": "nlm8841@nyu.edu",
-    "github": "nasan016",
-    "linkedin": "nathanielmacapinlac"
-  },
-  "aboutGreeting": "Hi I'm Nathan. I'm a student at NYU Tandon.",
+  "repoLink": "https://github.com/haideralipunjabi/webshell",
+  "social": [
+    {
+      "id": 1,
+      "name": "Github",
+      "link": "https://github.com/haideralipunjabi",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "id": 2,
+      "name": "Instagram",
+      "link": "https://instagram.com/haideralipunjabi",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "id": 3,
+      "name": "Twitter",
+      "link": "https://twitter.com/HAliPunjabi",
+      "icon": "fa-brands fa-twitter"
+    },
+    {
+      "id": 4,
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/haideralipunjabi/",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "id": 5,
+      "name": "Mastodon",
+      "link": "https://a.sc/@haider",
+      "icon": "fa-brands fa-mastodon"
+    },
+    {
+      "id": 6,
+      "name": "Lenster",
+      "link": "https://lenster.xyz/u/haideralipunjabi",
+      "icon": "fa-custom fa-lenster"
+    }
+  ],
+  "aboutGreeting": "Hi I'm Haider. I'm a Software Developer",
   "projects": [
-    [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
-    ],
-    [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
-    ]
+    {
+      "name": "Accher - A Kashmiri Wordle",
+      "description": "Accher - A Kashmiri Wordle. Wordle made in the Kashmiri Language",
+      "url": "https://accher.hackesta.org/",
+      "github_link": null,
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://accher.hackesta.org/",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 29,
+          "tag": {
+            "id": 12,
+            "name": "NextJS",
+            "icon": "fa-brands fa-js"
+          }
+        },
+        {
+          "tag": {
+            "name": 1,
+            "icon": "fa-solid fa-newspaper"
+          }
+        }
+      ],
+      "image": "/media/og_1.png",
+      "date": "February 2022"
+    },
+    {
+      "name": "Kashmir Type Hunt",
+      "description": "Website for Kashmir Type Hunt. Kashmir Type Hunt is a design community based in Kashmir. Our motive is to document and archive indigenous type forms. The goal is to build awareness about design and type forms around us. What started as individuals documenting type has now evolved into a community where everyone can submit their find thus documenting and showcasing for all the people out there.",
+      "url": "https://kashmirtypehunt.com/",
+      "github_link": null,
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://kashmirtypehunt.com/",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 24,
+          "tag": {
+            "id": 6,
+            "name": "PWA",
+            "icon": "fa-solid fa-globe"
+          }
+        },
+        {
+          "id": 25,
+          "tag": {
+            "id": 12,
+            "name": "NextJS",
+            "icon": "fa-brands fa-js"
+          }
+        }
+      ],
+      "image": "/media/og_2.png",
+      "date": "April 2021"
+    },
+    {
+      "name": "cli-badges",
+      "description": "Quirky little Python library for generating badges for your CLI apps.",
+      "url": null,
+      "github_link": "https://github.com/haideralipunjabi/cli-badges",
+      "buttons": [
+        {
+          "id": 2,
+          "link": "https://pypi.org/project/cli-badges/",
+          "button": {
+            "id": 5,
+            "name": "Pypi",
+            "icon": "fa-brands fa-python"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/cli-badges",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 10,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "id": 11,
+          "tag": {
+            "id": 4,
+            "name": "Python",
+            "icon": "fa-brands fa-python"
+          }
+        }
+      ],
+      "image": "/media/bba75580-e61c-11ea-807c-47fd114df272.png",
+      "date": "August 2020"
+    },
+    {
+      "name": "polybar-speedtest",
+      "description": "speedtest.net module for Polybar",
+      "url": null,
+      "github_link": "https://github.com/haideralipunjabi/polybar-speedtest",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/polybar-speedtest",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 4,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "id": 5,
+          "tag": {
+            "id": 4,
+            "name": "Python",
+            "icon": "fa-brands fa-python"
+          }
+        }
+      ],
+      "image": null,
+      "date": "June 2020"
+    },
+    {
+      "name": "Iftarkar",
+      "description": "Countdown Web App for Ramadan Timings in Jammu & Kashmir",
+      "url": "https://iftarkar.com",
+      "github_link": "https://github.com/haideralipunjabi/iftarkar-nextjs",
+      "buttons": [
+        {
+          "id": 4,
+          "link": "https://play.google.com/store/apps/details?id=org.hackesta.iftarkar",
+          "button": {
+            "id": 1,
+            "name": "Play Store",
+            "icon": "fa-brands fa-google-play"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/iftarkar-nextjs",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://iftarkar.com",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 26,
+          "tag": {
+            "id": 6,
+            "name": "PWA",
+            "icon": "fa-solid fa-globe"
+          }
+        },
+        {
+          "id": 27,
+          "tag": {
+            "id": 12,
+            "name": "NextJS",
+            "icon": "fa-brands fa-js"
+          }
+        },
+        {
+          "id": 28,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "tag": {
+            "name": 5,
+            "icon": "fa-solid fa-newspaper"
+          }
+        }
+      ],
+      "image": "/media/og_image.png",
+      "date": "May 2020"
+    },
+    {
+      "name": "CovidKashmir",
+      "description": "A website tracking COVID-19 cases in Jammu & Kashmir, along with providing related information & visualizations - March 2020",
+      "url": "https://covidkashmir.org",
+      "github_link": "https://github.com/haideralipunjabi/covid19kashmir",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/covid19kashmir",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://covidkashmir.org",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 14,
+          "tag": {
+            "id": 6,
+            "name": "PWA",
+            "icon": "fa-solid fa-globe"
+          }
+        },
+        {
+          "id": 15,
+          "tag": {
+            "id": 7,
+            "name": "HTML",
+            "icon": "fa-brands fa-html5"
+          }
+        },
+        {
+          "id": 16,
+          "tag": {
+            "id": 8,
+            "name": "CSS",
+            "icon": "fa-brands fa-css3"
+          }
+        },
+        {
+          "id": 17,
+          "tag": {
+            "id": 9,
+            "name": "JS",
+            "icon": "fa-brands fa-js"
+          }
+        },
+        {
+          "id": 18,
+          "tag": {
+            "id": 11,
+            "name": "Collaboration",
+            "icon": "fa-solid fa-users"
+          }
+        },
+        {
+          "id": 19,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "tag": {
+            "name": 4,
+            "icon": "fa-solid fa-newspaper"
+          }
+        }
+      ],
+      "image": "/media/og_image_1.png",
+      "date": "March 2020"
+    },
+    {
+      "name": "Harry Potter Fanfiction Recommender",
+      "description": "Recommendations based on  r/HPFanfiction",
+      "url": "https://hpffrec.hackesta.org/",
+      "github_link": "https://github.com/haideralipunjabi/hpffrec-nextjs",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/hpffrec-nextjs",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://hpffrec.hackesta.org/",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 20,
+          "tag": {
+            "id": 6,
+            "name": "PWA",
+            "icon": "fa-solid fa-globe"
+          }
+        },
+        {
+          "id": 21,
+          "tag": {
+            "id": 12,
+            "name": "NextJS",
+            "icon": "fa-brands fa-js"
+          }
+        },
+        {
+          "id": 22,
+          "tag": {
+            "id": 4,
+            "name": "Python",
+            "icon": "fa-brands fa-python"
+          }
+        },
+        {
+          "id": 23,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        }
+      ],
+      "image": "/media/og_3.png",
+      "date": "July 2019"
+    },
+    {
+      "name": "DBS Scouter Font",
+      "description": "Scouter Language Font as seen in Dragon Ball Super: Broly",
+      "url": null,
+      "github_link": "https://github.com/haideralipunjabi/DBSScouterFont",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/DBSScouterFont",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 3,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        }
+      ],
+      "image": "/media/demo.png",
+      "date": "April 2019"
+    },
+    {
+      "name": "polybar-browsermediacontrol",
+      "description": "Browser Media Control module for Polybar",
+      "url": null,
+      "github_link": "https://github.com/haideralipunjabi/polybar-browsermediacontrol",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/polybar-browsermediacontrol",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 8,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "id": 9,
+          "tag": {
+            "id": 4,
+            "name": "Python",
+            "icon": "fa-brands fa-python"
+          }
+        }
+      ],
+      "image": null,
+      "date": "April 2019"
+    },
+    {
+      "name": "polybar-kdeconnect",
+      "description": "KDEConnect module for Polybar",
+      "url": null,
+      "github_link": "https://github.com/haideralipunjabi/polybar-kdeconnect",
+      "buttons": [
+        {
+          "id": null,
+          "link": "https://github.com/haideralipunjabi/polybar-kdeconnect",
+          "button": {
+            "id": null,
+            "name": "Github",
+            "icon": "fa-brands fa-github"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 6,
+          "tag": {
+            "id": 3,
+            "name": "Open Source",
+            "icon": "fa-solid fa-code-branch"
+          }
+        },
+        {
+          "id": 7,
+          "tag": {
+            "id": 5,
+            "name": "Shell",
+            "icon": "fa-solid fa-terminal"
+          }
+        }
+      ],
+      "image": "/media/82d1c200-6219-11e9-907c-74c750857b12.png",
+      "date": "January 2019"
+    },
+    {
+      "name": "Kashmiri Stickers",
+      "description": "Whatsapp Stickers Application with Kashmiri Stickers",
+      "url": null,
+      "github_link": null,
+      "buttons": [
+        {
+          "id": 1,
+          "link": "https://play.google.com/store/apps/details?id=org.hackesta.kashmiristickers",
+          "button": {
+            "id": 1,
+            "name": "Play Store",
+            "icon": "fa-brands fa-google-play"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "tag": {
+            "id": 1,
+            "name": "Android",
+            "icon": "fa-brands fa-android"
+          }
+        },
+        {
+          "id": 2,
+          "tag": {
+            "id": 2,
+            "name": "Java",
+            "icon": "fa-brands fa-java"
+          }
+        }
+      ],
+      "image": "/media/banner.png",
+      "date": "November 2018"
+    },
+    {
+      "name": "Tweet2Pic",
+      "description": "Tweet2Pic is a small tool, which can be used to share your Twitter Tweets in the form of an image.",
+      "url": "https://tweet2pic.app",
+      "github_link": null,
+      "buttons": [
+        {
+          "id": 3,
+          "link": "https://play.google.com/store/apps/details?id=org.hackesta.tweet2pic",
+          "button": {
+            "id": 1,
+            "name": "Play Store",
+            "icon": "fa-brands fa-google-play"
+          }
+        },
+        {
+          "id": null,
+          "link": "https://tweet2pic.app",
+          "button": {
+            "id": null,
+            "name": "Website",
+            "icon": "fa-solid fa-earth-asia"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 12,
+          "tag": {
+            "id": 1,
+            "name": "Android",
+            "icon": "fa-brands fa-android"
+          }
+        },
+        {
+          "id": 13,
+          "tag": {
+            "id": 2,
+            "name": "Java",
+            "icon": "fa-brands fa-java"
+          }
+        },
+        {
+          "tag": {
+            "name": 2,
+            "icon": "fa-solid fa-newspaper"
+          }
+        }
+      ],
+      "image": "/media/ogimage.png",
+      "date": "August 2018"
+    }
   ]
 }
